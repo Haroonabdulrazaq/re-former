@@ -1,6 +1,6 @@
 <h1>Hello am New here</h1>
-
-<form action = "" method="POST" accept-charset="UTF-8">
+<form action= "/users" accept-charset="UTF-8" method="POST" >
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 <ul>
     <li>
     <label for ="username">Username</label>
@@ -17,7 +17,7 @@
     <input type="password" id= "password" />
     </li>
 </ul>
-<input type="submit" value="Create" />
+<input type="submit" value="Submit" />
 
 
 </form>
