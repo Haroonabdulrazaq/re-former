@@ -1,23 +1,31 @@
-<h1>Hello am New here</h1>
-<form action= "/users" accept-charset="UTF-8" method="POST" >
-<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-<ul>
-    <li>
-    <label for ="username">Username</label>
-    <input type="text" id= "username" name = user[:username]/>
-    </li>
+<%# <h1>Hello am New here</h1> %>
+<%# <form action= "/users" accept-charset="UTF-8" method="POST" > %>
+<%# <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> %>
+<%# <ul> %>
+    <%# <li> %>
+    <%# <label for ="username">Username</label> %>
+    <%# <input type="text" id= "username" name = user[:username]/> %>
+    <%# </li> %>
 
-    <li>
-    <label for ="email">Email</label>
-    <input type="email" id= "email" name = user[:email] />
-    </li>
+    <%# <li> %>
+    <%# <label for ="email">Email</label> %>
+    <%# <input type="email" id= "email" name = user[:email] /> %>
+    <%# </li> %>
 
-    <li>
-    <label for ="password">Password</label>
-    <input type="password" id= "password" name = user[:password] />
-    </li>
-</ul>
-<input type="submit" value="Submit" />
+    <%# <li> %>
+    <%# <label for ="password">Password</label> %>
+    <%# <input type="password" id= "password" name = user[:password] /> %>
+    <%# </li> %>
+<%# </ul> %>
+<%# <input type="submit" value="Submit" /> %>
 
+<%# </form> %>
 
-</form>
+<%= form_tag('/users', method: :put) do %>
+
+hidden_field_tag 'token', 'form_authenticity_token'
+
+label_tag 'username', 'Username'
+text_field_tag 'user[username]'
+
+<% end %>
