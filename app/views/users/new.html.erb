@@ -21,18 +21,18 @@
 
 <%# </form> %>
 
-<%= form_tag('/users', method: :put) do %>
-    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+<%#= form_tag('/users', method: :put) do %>
+    <%#= hidden_field_tag :authenticity_token, form_authenticity_token %>
     
 
-    <%= label_tag 'username', 'Username' %>
-    <%= text_field_tag 'user[username]' %>
+    <%#= label_tag 'username', 'Username' %>
+    <%#= text_field_tag 'user[username]' %>
 
-    <%= label_tag 'email', 'Email' %>
-    <%= email_field_tag 'user[email]' %>  
+    <%#= label_tag 'email', 'Email' %>
+    <%#= email_field_tag 'user[email]' %>  
 
-    <%= label_tag 'password', 'Password' %>
-    <%= password_field_tag 'user[password]' %> 
+    <%#= label_tag 'password', 'Password' %>
+    <%#= password_field_tag 'user[password]' %> 
 
-    <%= submit_tag "Submit" %>
-    <% end %>
+    <%#= submit_tag "Submit" %>
+    <%# end %>
