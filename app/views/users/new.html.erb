@@ -1,6 +1,6 @@
 <%# <h1>Hello am New here</h1> %>
 <%# <form action= "/users" accept-charset="UTF-8" method="POST" > %>
-<%# <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"> %>
+<%# <input type="hidden" name="authenticity_token" value="form_authenticity_token" %>
 <%# <ul> %>
     <%# <li> %>
     <%# <label for ="username">Username</label> %>
@@ -22,10 +22,24 @@
 <%# </form> %>
 
 <%= form_tag('/users', method: :put) do %>
-
-hidden_field_tag 'token', 'form_authenticity_token'
-
-label_tag 'username', 'Username'
-text_field_tag 'user[username]'
-
-<% end %>
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    
+    <ul>
+    <li>
+    <%= label_tag 'username', 'Username' %>
+    <%= text_field_tag 'user[username]' %>
+    </li>
+    
+    <li>
+    <%= label_tag 'email', 'Email' %>
+    <%= email_field_tag 'user[email]' %>
+    </li>
+    
+    <li>
+    <%= label_tag 'password', 'Password' %>
+    <%= password_field_tag 'user[password]' %> 
+    </li>
+    
+    </ul> 
+    <%= submit_tag "Submit" %>
+    <% end %>
