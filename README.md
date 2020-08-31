@@ -1,7 +1,7 @@
  # Re-former
 
 ## About <a name = "About"></a>
-This project puts our knowledge of active record, models, and associations to the test. We built an application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
+This project puts our knowledge of Forms  to the test. We built an application similar to hoe forms work in the real world where a user can create a post and add comments to it.
 
 ## 🔧 Built with<a name = "with"></a>
 
@@ -9,8 +9,8 @@ This project puts our knowledge of active record, models, and associations to th
 
 ## 🔨 Setup    <a name = "setup"></a>
 - Clone the project from github using
-- <code>$ git clone https://github.com/luciano-ilha/micro-reddit.git</code>
-- <code>cd micro-reddit</code>
+- <code>$ git clone https://github.com/haroonabdulrazaq/re-former.git</code>
+- <code>cd re-former</code>
 - <code>$ bundle install</code>
 
 ## Run Test <a name = "Testing"></a>
