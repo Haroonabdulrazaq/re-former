@@ -23,7 +23,7 @@ This project puts our knowledge of Forms  to the test. We built an application s
 
 - Github: [@Haroonabdulrazaq](https://github.com/Haroonabdulrazaq)
 - Twitter: [@Hanq_o](https://twitter.com/Hanq_o)
-- Linkedin: [Haroonabdulrazaq](https://www.linkedin.com/in/haroon-abdulrazaq/)
+- Linkedin: [Haroonabdulrazaq](https://www.linkedin.com/in/haroonabdulrazaq/)
 
 
 👤 **Luciano ilha carbonel**
