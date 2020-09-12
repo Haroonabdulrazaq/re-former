@@ -30,7 +30,7 @@ This project puts our knowledge of Forms  to the test. We built an application s
 
 - Github: [@Luciano ilha](https://github.com/luciano-ilha)
 - Twitter: [@CarbonellIlha](https://twitter.com/CarbonellIlha )
-- Linkedin: [@Luciano ilha](hhttps://www.linkedin.com/in/luciano-carbonell-188115a0/)
+- Linkedin: [@Luciano ilha](https://www.linkedin.com/in/luciano-carbonell-188115a0/)
 
 ## 🤝 Contributing
 
